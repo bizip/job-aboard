@@ -8,6 +8,7 @@
     display: grid;
     height: auto;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
 }
 
 .workgriditem {
@@ -36,4 +37,12 @@
 
 .gridtext h3 {
     padding: .5rem;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jobdetails {
+    font-size: 2rem;
 }

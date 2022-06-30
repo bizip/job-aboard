@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=4cb2e04b&app_key=670d7e2c98c9293ab7646a85a1317065';
+const url = 'https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=84130255&app_key=c21dcc197f3b110d765d5dfbe34fed8e';
 // Actions
 const DISPLAY_JOBS = 'Jobaboard/jobs/DISPALY_JOBS';
 
