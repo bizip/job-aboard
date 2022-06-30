@@ -44,5 +44,13 @@
 }
 
 .jobdetails {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.jobdetails li {
+    margin: 4% 0;
+    padding: 1% 2%;
+    background-color: rgb(38, 135, 192);
+    list-style: none;
+    line-height: 2.5rem;
 }

@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux/es/exports';
 import moment from 'moment';
@@ -14,14 +14,9 @@ const defaultProps = {};
 
 const Home = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   useEffect(() => {
     dispatch(displayJobFunction());
   }, []);
-  const handleClicked = (e) => {
-    e.preventDefault();
-    navigate(`/description/${e.target.id}`);
-  };
   const jobList = useSelector((state) => state.JobReducer);
   return (
     <div>
@@ -32,7 +27,13 @@ const Home = () => {
           <div key={el.id} className={classes.workgriditem}>
             <div className={classes.icon}>
               {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
-              <img src={direction} onClick={handleClicked} id={el.id} alt="directtion" />
+              {/* <img src={direction} onClick={handleClicked} id={el.id} alt="directtion" /> */}
+              <Link
+                to="/description"
+                state={{ state: el }}
+              >
+                <img src={direction} id={el.id} alt="direction" />
+              </Link>
             </div>
             <div className={classes.gridtext}>
               <h3>{el.title}</h3>

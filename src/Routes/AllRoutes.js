@@ -10,7 +10,7 @@ const defaultProps = {};
 const AllRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/description/:id" element={<Description />} />
+    <Route path="/description" element={<Description />} />
   </Routes>
 );
 
