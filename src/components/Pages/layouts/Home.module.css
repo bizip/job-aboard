@@ -1,0 +1,39 @@
+.title {
+    background-color: rgb(38, 135, 192);
+    padding: 1rem 2%;
+}
+
+.workgrid {
+    position: relative;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.workgriditem {
+    min-height: 20rem;
+    padding-bottom: 1rem;
+    background-color: rgba(21, 142, 213, 0.67);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.icon {
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.icon img {
+    width: 3rem;
+}
+
+.gridtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.gridtext h3 {
+    padding: .5rem;
+}
