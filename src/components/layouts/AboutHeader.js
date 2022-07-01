@@ -7,7 +7,7 @@ const defaultProps = {};
 
 const AboutHeader = () => (
   <div className={classes.aboutheader}>
-    <h1>This is the header</h1>
+    <h1>Don&#8217;t wait to apply as long as you fit</h1>
   </div>
 );
 

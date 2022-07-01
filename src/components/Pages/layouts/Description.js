@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import dateFormat from 'dateformat';
 import AboutHeader from '../../layouts/AboutHeader';
 import classes from './Home.module.css';
+import JobNav from '../../layouts/JobNav';
 
 const propTypes = {};
 
@@ -12,16 +13,13 @@ const defaultProps = {};
 const Description = () => {
   const locations = useLocation();
   const { state } = locations.state;
-  // const dispatch = useDispatch();
-  // useEffect(() => {
-  //   dispatch(displayJobFunction());
-  // }, []);
   const {
-    title, category, company, location, created, contract_time, description,
+    title, category, company, location, created, redirect_url, contract_time, description,
   } = state;
 
   return (
     <div>
+      <JobNav />
       <AboutHeader />
       <h1 className={classes.title}>{title}</h1>
       <div className={classes.description}>
@@ -56,7 +54,7 @@ const Description = () => {
           </li>
           <li>
             <p>
-              Posted at:
+              Contract Time:
               <br />
               {contract_time}
             </p>
@@ -67,6 +65,9 @@ const Description = () => {
               <br />
               {description}
             </p>
+          </li>
+          <li>
+            <a className={classes.lnk} target="_blank" href={redirect_url} title="apply now" rel="noreferrer">Apply Now</a>
           </li>
         </ul>
       </div>

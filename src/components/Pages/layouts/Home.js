@@ -7,6 +7,7 @@ import Header from '../../layouts/Header';
 import classes from './Home.module.css';
 import direction from '../../../img/direction.svg';
 import { displayJobFunction } from '../../../redux/jobs/Job';
+import Navbar from '../../layouts/Navbar';
 
 const propTypes = {};
 
@@ -20,14 +21,13 @@ const Home = () => {
   const jobList = useSelector((state) => state.JobReducer);
   return (
     <div>
+      <Navbar />
       <Header />
       <h1 className={classes.title}>Jobs by titles</h1>
       <div className={classes.workgrid}>
         {jobList.map((el) => (
           <div key={el.id} className={classes.workgriditem}>
             <div className={classes.icon}>
-              {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
-              {/* <img src={direction} onClick={handleClicked} id={el.id} alt="directtion" /> */}
               <Link
                 to="/description"
                 state={{ state: el }}

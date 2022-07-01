@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 import classes from './NavBar.module.css';
 import microphone from '../../img/microphone.svg';
 import setting from '../../img/setting.svg';
-import plane from '../../img/plane.svg';
+import back from '../../img/back.svg';
 
 const propTypes = {};
 
 const defaultProps = {};
 
-const Navbar = () => (
+const JobNav = () => (
   <nav className={classes.nav}>
     <Link to="/">
       {' '}
       <div className={classes.menuContainer}>
-        <img src={plane} alt="logo" />
+        <img src={back} alt="logo" />
       </div>
     </Link>
 
@@ -28,8 +28,8 @@ const Navbar = () => (
   </nav>
 );
 
-Navbar.propTypes = propTypes;
-Navbar.defaultProps = defaultProps;
+JobNav.propTypes = propTypes;
+JobNav.defaultProps = defaultProps;
 // #endregion
 
-export default Navbar;
+export default JobNav;
