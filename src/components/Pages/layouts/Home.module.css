@@ -1,39 +1,74 @@
 .title {
-    background-color: rgb(38, 135, 192);
-    padding: 1rem 2%;
+  background-color: rgb(38, 135, 192);
+  padding: 1rem 2%;
 }
 
 .workgrid {
-    position: relative;
-    display: grid;
-    height: auto;
-    grid-template-columns: 1fr 1fr;
+  position: relative;
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
 }
 
 .workgriditem {
-    min-height: 20rem;
-    padding-bottom: 1rem;
-    background-color: rgba(21, 142, 213, 0.67);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  min-height: 20rem;
+  padding-bottom: 1rem;
+  background-color: rgba(21, 142, 213, 0.67);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 1.2rem;
 }
 
 .icon {
-    height: 50%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+  height: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
 
 .icon img {
-    width: 3rem;
+  width: 3rem;
 }
 
 .gridtext {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .gridtext h3 {
-    padding: .5rem;
+  padding: 0.5rem;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jobdetails {
+  font-size: 1.5rem;
+}
+
+.jobdetails li {
+  margin: 4% 0;
+  padding: 1% 2%;
+  background-color: rgb(38, 135, 192);
+  list-style: none;
+  line-height: 2.5rem;
+}
+
+.lnk:link,
+.lnk:visited {
+  background-color: chocolate;
+  color: white;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5%;
+  width: 100%;
+}
+
+.lnk:hover,
+.lnk:active {
+  background-color: #f44336;
 }

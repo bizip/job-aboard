@@ -7,7 +7,7 @@ const defaultProps = {};
 
 const Header = () => (
   <div className={classes.header}>
-    <h1>This is the header</h1>
+    <h1>Connect your talent to the job market</h1>
   </div>
 );
 

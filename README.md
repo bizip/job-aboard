@@ -1,13 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians
+# Job aboard
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related
+> This website tracks the job from aboard with a link that you can apply directly please use this website to find your dream job aboard. it is build with React redux.
 
 ## Built With
 
--React Js
+-React
+-Redux
 
+## Link to the live project
+
+### [Job aboard](https://quiet-crisp-13242e.netlify.app)
+
+## Video demonstration
+
+### [Job aboard loom video](https://www.loom.com/share/a59f31a006544eb28b5320c4e1946a5a)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -19,7 +27,7 @@ You need to have a basic knowledge about HTML and CSS
 
 ### Setup
 
-#### clone this project (using git clone https://github.com/bizip/math_magicians.git) to your local computer and use telminal to navigate into the parent directory of this project.
+#### clone this project (using git clone https://github.com/bizip/job-aboard.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
 ### Install
 
@@ -28,6 +36,7 @@ You need to have a basic knowledge about HTML and CSS
 ### Usage
 
 run: npm start
+test: npm test
 
 ## Authors
 
@@ -49,7 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to code reviewers
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 - Inspiration
 - etc
 

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for the navigation bar section It should render the descripttions navigation bar 1`] = `
+<nav
+  className="nav"
+>
+  <a
+    href="#/"
+    onClick={[Function]}
+  >
+     
+    <div
+      className="menuContainer"
+    >
+      <img
+        alt="logo"
+        src="back.svg"
+      />
+    </div>
+  </a>
+  <div
+    className="textContainer"
+  >
+    <p>
+      Job aboard
+    </p>
+  </div>
+  <div
+    className="iconsContainer"
+  >
+    <img
+      alt="microphone"
+      src="microphone.svg"
+    />
+    <img
+      alt="settion"
+      src="setting.svg"
+    />
+  </div>
+</nav>
+`;
+
+exports[`Test for the navigation bar section It should render the navigation bar 1`] = `
+<nav
+  className="nav"
+>
+  <a
+    href="#/"
+    onClick={[Function]}
+  >
+     
+    <div
+      className="menuContainer"
+    >
+      <img
+        alt="logo"
+        src="plane.svg"
+      />
+    </div>
+  </a>
+  <div
+    className="textContainer"
+  >
+    <p>
+      Job aboard
+    </p>
+  </div>
+  <div
+    className="iconsContainer"
+  >
+    <img
+      alt="microphone"
+      src="microphone.svg"
+    />
+    <img
+      alt="settion"
+      src="setting.svg"
+    />
+  </div>
+</nav>
+`;
