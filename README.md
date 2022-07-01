@@ -12,6 +12,10 @@
 ## Link to the live project
 
 ### [Job aboard](https://quiet-crisp-13242e.netlify.app)
+
+## Video demonstration
+
+### [Job aboard loom video](https://www.loom.com/share/a59f31a006544eb28b5320c4e1946a5a)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -54,9 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
--The This desigin was designed by [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) under (CC BY-SA 4.0)
-
+- Hat tip to code reviewers
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 - Inspiration
 - etc
 
