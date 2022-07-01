@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for all header components It should render About Header component 1`] = `
+<div
+  className="aboutheader"
+>
+  <h1>
+    Don’t wait to apply as long as you fit
+  </h1>
+</div>
+`;
+
+exports[`Test for all header components It should render Header component 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Connect your talent to the job market
+  </h1>
+</div>
+`;

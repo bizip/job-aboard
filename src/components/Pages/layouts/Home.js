@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux/es/exports';
 import moment from 'moment';
 import Header from '../../layouts/Header';
 import classes from './Home.module.css';
